@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .boxcenter {
+        width: 70%;
+        margin: 0 auto;
+      }
+      header {
+        width: 100%;
+        background-color: aquamarine;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      nav {
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding-left: 10px;
+      }
+      main {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        min-height: auto;
+      }
+      article {
+        width: 74%;
+      }
+      .banner {
+        width: 100%;
+      }
+      .banner img {
+        width: 100%;
+      }
+      .ndsp {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .sp {
+        width: 32%;
+        min-height: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      .sp p {
+        font-size: 30px;
+      }
+      .sp a {
+        font-size: 18px;
+        text-decoration: none;
+      }
+      .sp img {
+        width: 100%;
+        height: 250px;
+      }
+
+      aside {
+        width: 24%;
+      }
+      .nd {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .boxtitle {
+        color: #333;
+        padding: 10px;
+        background-color: #eee;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .boxcontent {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        min-height: 200px;
+        padding: 10px;
+      }
+      .boxcenter1 {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        min-height: auto;
+      }
+      .boxfooter {
+        padding: 10px;
+        background-color: #eee;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      footer {
+        width: 100%;
+        background-color: aquamarine;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      .formtaikhoan {
+        line-height: 30px;
+      }
+      .inputtk input {
+        width: 250px;
+        height: 35px;
+      }
+      .inputcheckbox {
+        border: 1px solid #ccc;
+        padding: 3px;
+        width: 250px;
+        margin-top: 10px;
+      }
+      .inputsumbit input {
+        margin-top: 5px;
+        width: 70px;
+        height: 35px;
+      }
+      .formtaikhoan li a {
+        text-decoration: none;
+      }
+      .menudoc ul {
+        list-style: none;
+      }
+      .menudoc ul li {
+        padding: 10px 20px;
+        border-bottom: 1px solid #ccc;
+      }
+      .menudoc ul li:hover {
+        background-color: #ebeaeadc;
+      }
+      .menudoc ul li a {
+        text-decoration: none;
+      }
+      .boxfooter input {
+        width: 250px;
+        height: 30px;
+        background-color: #fff;
+      }
+      .anhtop img {
+        width: 10%;
+        height: 25px;
+        float: left;
+        margin-right: 10px;
+      }
+      .top10 {
+        line-height: 50px;
+      }
+      .anhtop a {
+        color: rgb(103, 112, 213);
+        text-decoration: none;
+      }
+      .anhtop a:hover {
+        color: red;
+      }
+      .boxsp {
+        float: left;
+        width: 32%;
+        min-height: 300px;
+        border: 1px #eee solid;
+        border-radius: 5px;
+        margin-bottom: 25px;
+      }
+      .row {
+        float: left;
+        width: 100%;
+      }
+      .mb {
+        margin-bottom: 30px;
+      }
+      .demo {
+        background-color: antiquewhite;
+        min-height: 100px;
+      }
+      .mr {
+        margin-right: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxcenter">
+      <header>
+        <h1>Siêu Thị Trực Tuyến</h1>
+      </header>
+      <nav>
+        <a href="">Trang chủ</a>
+        <a href="">Giới thiệu</a>
+        <a href="">Liên hệ</a>
+        <a href="">Góp ý</a>
+        <a href="">Hỏi đáp</a>
+      </nav>
+      <main>
+        <article>
+          <div class="banner">
+            <img src="./views/img/banner-la-gi.jpg" alt="" />
+          </div>
+
+          <div class="row">
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp mr">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+            <div class="boxsp">
+              <img src="./views/img/anh1.jpg" alt="" />
+              <p>$30</p>
+              <a href="#">OK</a>
+            </div>
+          </div>
+        </article>
+
+        <aside>
+          <div class="nd">
+            <div class="boxtitle">TÀI KHOẢN</div>
+            <div class="boxcontent formtaikhoan">
+              <form action="#" method="POST">
+                <div class="inputtk">
+                  <label>Tên đăng nhập</label>
+                  <input type="text" name="user" id="" required /><br />
+                </div>
+                <div class="inputtk">
+                  <label>Mật khẩu</label><br />
+                  <input type="text" name="pass" id="" required /><br />
+                </div>
+                <div class="inputcheckbox">
+                  <input type="checkbox" name="" id="" />Ghi nhớ tài khoản?<br />
+                </div>
+                <div class="inputsumbit">
+                  <input type="submit" value="Đăng nhập" />
+                </div>
+              </form>
+              <li>
+                <a href="#">Quên mật khẩu</a>
+              </li>
+              <li>
+                <a href="#">Đăng ký thành viên</a>
+              </li>
+            </div>
+          </div>
+
+          <div class="nd">
+            <div class="boxtitle">DANH MỤC</div>
+            <div class="boxcenter1 menudoc">
+              <ul>
+                <li>
+                  <a href="#">Đồng hồ</a>
+                </li>
+                <li>
+                  <a href="#">Điện thoại</a>
+                </li>
+                <li>
+                  <a href="#">Laptop</a>
+                </li>
+                <li>
+                  <a href="#">Máy tính bảng</a>
+                </li>
+              </ul>
+            </div>
+            <div class="boxfooter">
+              <form action="" method="POST">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Tìm kiếm từ khoá..."
+                />
+              </form>
+            </div>
+          </div>
+
+          <div class="nd">
+            <div class="boxtitle">TOP 10 YÊU THÍCH</div>
+            <div class="boxcontent top10">
+              <div class="anhtop">
+                <img src="./views/img/dongho.png" alt="" />
+                <a href="#">Sir Rodney's Marmalade</a>
+              </div>
+              <div class="anhtop">
+                <img src="./views/img/dongho.png" alt="" />
+                <a href="#">Sir Rodney's Marmalade</a>
+              </div>
+              <div class="anhtop">
+                <img src="./views/img/dongho.png" alt="" />
+                <a href="#">Sir Rodney's Marmalade</a>
+              </div>
+              <div class="anhtop">
+                <img src="./views/img/dongho.png" alt="" />
+                <a href="#">Sir Rodney's Marmalade</a>
+              </div>
+              <div class="anhtop">
+                <img src="./views/img/dongho.png" alt="" />
+                <a href="#">Sir Rodney's Marmalade</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+      <footer>binhdtph53742 @ 2024</footer>
+    </div>
+  </body>
+</html>

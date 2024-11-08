@@ -1,0 +1,105 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-form {
+    width: 400px;
+    height: 600px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+h2 {
+    margin-bottom: 30px;
+}
+
+.user, .pass {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border-color: transparent transparent rgb(207, 200, 200) transparent;
+    outline: none;
+    padding: 10px;
+	padding-left: 24px;
+    font-weight: 600;
+}
+
+.user:focus, .pass:focus {
+    border-color: transparent transparent black transparent ;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    margin-left: 18px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(56, 113, 183);
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid #D4D3E8;
+    font-weight: 600;
+    box-shadow: 0px 2px 2px #5C5696;
+    margin-top: 20px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    border-color: #6A679E;
+    outline: none;
+}
+
+.fa-user {
+	color: #7875B5;
+    position: absolute;
+	top: 118px;
+}
+
+.fa-lock {
+    color: #7875B5;
+    position: absolute;
+    top: 191px;
+}
+/*  */
+
+.social-login {	
+	position: absolute;
+	height: 250px;
+	width: 1311px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: black;
+    font-size: 30px;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}

@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 5px;
+}
+nav{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px ;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: auto;
+}
+article{
+    width: 74%;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+
+aside{
+    width: 24%;
+}    
+.nd{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxtitle{
+    
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border: 1px solid #CCC;
+}
+.boxcontent{
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    min-height: 200px;
+    padding: 10px;
+}
+.boxcenter1{
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    min-height:auto;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    border: 1px solid #CCC;
+}
+footer{
+    width: 100%;
+    background-color:aquamarine;
+    border: 1px solid black;
+    padding: 10px ;
+    border-radius: 5px;
+    margin-top:10px ;
+}
+.formtaikhoan{
+    line-height: 30px;
+}
+.inputtk input{
+    width: 240px;
+    height: 35px;
+}
+.inputcheckbox{
+     border: 1px solid #ccc;
+     padding:3px;
+     width: 240px;
+     margin-top: 10px;
+}
+.inputsumbit input{
+    margin-top: 5px;
+    width: 70px;
+    height: 35px
+}
+.formtaikhoan li a{
+    text-decoration: none;
+}
+.menudoc ul{
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #CCC;
+}
+.menudoc ul li:hover{
+    background-color: #ebeaeadc;
+}
+.menudoc ul li a{
+    text-decoration: none;
+}
+.boxfooter input{
+    width: 250px;
+    height: 30px ;
+    background-color: #fff;
+}
+.anhtop img{
+    width: 10%;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.top10{
+    line-height: 50px;
+}
+.anhtop a{
+    color:rgb(103, 112, 213);
+    text-decoration: none;
+}
+.anhtop a:hover{
+    color: red;
+}
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.boxsp:hover{
+    box-shadow:3px 3px 5px rgb(0, 0, 0);
+}
+.boxsp p{
+    font-size: 20px;    
+    margin-left: 10px ;
+    color: red;
+}
+.boxsp a{
+    font-size: 18px;    
+    margin-left: 10px ;
+    text-decoration: none;
+}
+.row {
+    float: left;
+    width: 100%;
+}
+.mb {
+    margin-bottom: 30px;
+}
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.mr {
+    margin-right: 2%;
+}
+.boxsp .img{
+    width: 100%;
+    min-height: 230px;
+    text-align: center;
+}
+.img img{
+    width: 90%;
+    height: 220px;
+}
+.anvata img{
+    width: 50%;
+}
